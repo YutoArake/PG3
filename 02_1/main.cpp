@@ -17,7 +17,7 @@ int main() {
 		"Hamamatsucho", "Shimbashi", "Yurakucho"
 	};
 
-	// ‰w”Ô†
+	// ‰w”Ô†(JY)
 	int stationNum;
 
 	for (list<int>::iterator itr_y = yearList.begin(); itr_y != yearList.end(); ++itr_y)
