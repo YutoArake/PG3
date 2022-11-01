@@ -8,7 +8,7 @@ int main() {
 	list<int> yearList = { 1970, 1971, 2019, 2020, 2022 };
 
 	// ‰wƒŠƒXƒg(Rèü)
-	list<string> stationList = {
+	list<const char*> stationList = {
 		"Tokyo", "Kanda", "Akihabara", "Okachimachi", "Ueno",
 		"Uguisudani", "Nippori", "Tabata", "Komagome", "Sugamo",
 		"Otsuka", "Ikebukuro", "Mejiro", "Takadanobaba", "Shin-Okubo",
@@ -31,7 +31,7 @@ int main() {
 			cout << *itr_y << " ”N‚ÌRèü‚Ì‰wˆê——(“à‰ñ‚è)" << endl;
 		}
 
-		for (list<string>::iterator itr_s = stationList.begin(); itr_s != stationList.end(); ++itr_s)
+		for (list<const char*>::iterator itr_s = stationList.begin(); itr_s != stationList.end(); ++itr_s)
 		{
 			if (*itr_y == 1971 && *itr_s == "Tabata") {
 				// ¼“ú•é—¢‚ğ‘}“ü
